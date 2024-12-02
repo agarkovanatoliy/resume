@@ -33,20 +33,27 @@ a{
     max-width: 90%;
 }
 
-.contacts{
+.contacts,
+.qualities,
+.skills{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
 }
 
-.contacts__title{
-    font-size: 30px;
-    font-weight: 500;
+.contacts__title,
+.qualities__title,
+.skills__title{
+    font-size: 23px;
+    font-weight: 600;
 }
 
-
-
+.qualities__p,
+.skills__p{
+    text-align: end;
+    font-size: 18px;
+}
 .containerRight{
     max-width: 100%;
     display: flex;
