@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 15rem 30rem;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.containerLeft{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.myFoto{
+    max-width: 90%;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.contacts__title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.containerRight{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
