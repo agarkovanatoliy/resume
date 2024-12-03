@@ -8,7 +8,7 @@ a{
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -23,7 +23,6 @@ a{
 .containerLeft{
     max-width: 100%;
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
@@ -92,7 +91,8 @@ a{
 
 .personalDetails,
 .education,
-.additionalInformation{
+.additionalInformation,
+.expertise{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -100,7 +100,8 @@ a{
 
 .personalDetails__title,
 .education__title,
-.additionalInformation__title{
+.additionalInformation__title,
+.expertise__title{
     font-size: 23px;
     font-weight: 600;
 }
@@ -114,7 +115,8 @@ a{
 
 .personalDetails__span,
 .education__span,
-.additionalInformation__span{
+.additionalInformation__span,
+.expertise__span{
     font-size: 18px;
     font-weight: 600;
 }
@@ -128,6 +130,11 @@ a{
 .education__section-title{
     color: #68889f;
     font-size: 20px;
+}
+
+.expertise__box-link{
+    display: flex;
+    gap: 20px;
 }
 
 @media(max-width: 400px){
@@ -170,7 +177,8 @@ a{
     .additionalInformation__title,
     .contacts__title,
     .qualities__title,
-    .skills__title{
+    .skills__title,
+    .expertise__title{
         font-size: 18px;
         font-weight: 600;
     }
